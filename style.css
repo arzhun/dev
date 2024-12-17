@@ -11,7 +11,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/yess/balaton.png);
+    background-image: url(balaton.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
