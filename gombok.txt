@@ -1,0 +1,37 @@
+            <div class="button-flex">
+                <div class="dropdown-container">
+                    <button class="openPopupBtn">Horgászbotok</button>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="#">Feeder</a></li>
+                            <li><a href="#">Bojlis</a></li>
+                            <li><a href="#">Pergető</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown-container">
+                    <button class="openPopupBtn">Horgászfelszerelés</button>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="#">Horgász zsinór</a></li>
+                            <li><a href="#">Horgászfelszerelések</a></li>
+                            <li><a href="#">Horgászat kiegészítők</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown-container">
+                    <button class="openPopupBtn">Kiegészítők</button>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="#">Horgászatok</a></li>
+                            <li><a href="#">Táskák</a></li>
+                            <li><a href="#">Egyéb kiegészítők</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="introduction">
+                <p></p>
+            </div>
+        </main>
+    </div>

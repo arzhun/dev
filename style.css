@@ -4,7 +4,79 @@ body {
     padding: 0;
     height: 100vh;
 }
-
+header {
+    margin: 0; /* Eltávolítja a margin-t */
+    padding: 0; /* Eltávolítja a paddingot */
+    display: flex;
+    width: 100%;
+    height: 20px;
+    background-color: #001aff;
+    z-index: -999;
+    top: 0;
+}
+header .shopname {
+  display: none;
+}
+header .wellcome {
+  height: auto;
+  display: flex;
+  margin: 0;
+  margin-top: 3px;
+  font-size: 13px;
+  margin-left: 100px;
+  color: #8f9091;
+  justify-content: space-between;
+}
+header .infos1 {
+  text-align: left;
+  margin-left: 400px;
+  margin-top: 3;
+  font-size: 8px;
+  font-weight: 100;
+  color: #8f9091;
+  justify-content: space-between;
+}
+header .infos2 {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 3;
+  font-size: 8px;
+  font-weight: 100;
+  color: #8f9091;
+  justify-content: space-between;
+}
+header #blimp {
+  margin-right: 1px;
+}
+header #phone {
+  margin-right: 1px;
+}
+header #calendar {
+  margin-right: 1px;
+}
+main .banner {
+  height: 50px;
+  width: auto;
+  position: relative;
+  background-color: #A9A9A9;
+}
+main .banner img {
+  margin-left: 100px;
+  width: auto;
+  height: 100%;
+  object-fit: cover; /* A kép kitölti a boxot, ha szükséges levágás is történik */
+  object-position: center; /* A kép középre igazítása */
+}
+main .bannerbutton {
+  padding: 10px 20px;
+  font-size: 10px;
+  background-color: #A9A9A9;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  margin-right: 10px; /* Kisebb távolság a gombok között */
+}
 .hatterkep {
     position: absolute;
     top: 0;
@@ -18,36 +90,21 @@ body {
     z-index: -1;
 }
 
-.NAME1 {
-    top: 1000px; 
-    border: 3px solid;
-    border-radius: 50px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-.mohosz {
-    width: 6%;
-    height: 2%;
-    position: relative;
-    bottom: 100px;
-}
 
 /* Gomb stílusa */
-button {
+.openPopupBtn {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 10px;
     background-color: #4CAF50;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     margin-right: 10px; /* Kisebb távolság a gombok között */
   }
   
-  button:hover {
+  .openPopupBtn:hover {
     background-color: #45a049;
   }
   
@@ -63,7 +120,7 @@ button {
     position: absolute;
     top: 100%; /* A gomb alá helyezi a menüt */
     left: 0;
-    background-color: #f9f9f9;
+    background-color: #cfcfcf;
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -87,7 +144,7 @@ button {
   }
   
   .dropdown-menu li a:hover {
-    background-color: #ddd;
+    background-color: #db1d1d;
   }
   
   /* Gomb megnyomása után történő animáció */
