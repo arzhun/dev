@@ -53,19 +53,21 @@ body {
   background-color: #A9A9A9;
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  height: 80px;
+  height: 60px;
 }
 .banner img {
   height: 100%;
   width: auto;
 }
-.bannerbutton {
-  font-size: 5px;
-  gap: 30px;
+.bannerbuttons {
+  display: flex;
+  gap: 50px;
+}
+.bannerbuttons .bannerbutton {
+  font-size: 10px;
 }
 
 
