@@ -18,7 +18,6 @@ body {
 }
 .topbar {
   background-color: white;
-  height: 20px;
   display: flex;
   margin: 0;
   padding: 0 20px;
@@ -50,6 +49,25 @@ body {
 }
 .shopname {
 }
+.banner {
+  background-color: #A9A9A9;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+}
+.banner img {
+  height: 100%;
+  width: auto;
+}
+.bannerbutton {
+  font-size: 5px;
+  gap: 30px;
+}
+
 
 /* Gomb stílusa */
 .openPopupBtn {
